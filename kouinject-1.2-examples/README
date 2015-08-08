@@ -1,0 +1,4 @@
+
+Example code for KouInject.
+
+Beans can be seen in src/main, and most of the examples of usage is in src/test.

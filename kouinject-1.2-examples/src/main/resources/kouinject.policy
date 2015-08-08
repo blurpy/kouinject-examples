@@ -1,0 +1,5 @@
+
+grant codebase "file:${user.home}/.m2/repository/net/usikkert/kouinject/kouinject/-" {
+  permission java.io.FilePermission "${user.dir}/target/classes/-", "read";
+  permission java.lang.reflect.ReflectPermission "suppressAccessChecks";
+};
